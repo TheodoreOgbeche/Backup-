@@ -1,0 +1,119 @@
+{
+  "name": "venocyber-md",
+  "description": "Simple WhatsApp Bot",
+  "logo": "https://github.com/kingjux/Venocyber-md/blob/main/lib/assets/logo.png?raw=true",
+  "keywords": ["VENOCYBER-MD", "VENOCYBER", "VENOCYBER MD BOT","VENOCYBER MD","venocyber","venocybertech"],
+  "success_url": "/",
+  "stack": "container",
+
+  "env": {
+    "OWNER_NAME": {
+      "description": "Name for Bot Owner",
+      "value": "✞ঔৣŦℨĐĐƳঔৣ✞",
+      "required": true
+    },
+
+    "WELCOME": {
+      "description": "put 'false' or 'true' to enable & disable WELCOME ",
+      "value": "false",
+      "required": false
+    },
+
+    "GOODBYE": {
+      "description": "put 'false' or 'true' to enable & disable GOODBYE ",
+      "value": "false",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": " NAME FOR BOT",
+      "required": false,
+      "value": "✞ঔৣŦℨĐĐƳঔৣ✞"
+    },
+    "TZ": {
+      "description": "Put TIME_ZONE according to your location",
+      "required": false,
+      "value": "Africa/Lagos"
+    },
+    "READ_COMMAND": {
+      "description": " Read bot cmds",
+      "required": false,
+      "value": "false"
+    },
+    "WARN_COUNT": {
+      "description": " Warn count for users to kick/block when warn limit exceed!",
+      "required": false,
+      "value": "3"
+    },
+    "AUTO_SAVE_STATUS": {
+      "description": " Auto save whatsapp status",
+      "required": false,
+      "value": "false"
+    },
+    "HEROKU_API_KEY": {
+      "description": "Put Your Heroku Api Key Here",
+      "value": "",
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Put Your Heroku App Name Here",
+      "value": "",
+      "required": true
+    },
+    "WAPRESENCE": {
+      "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
+      "required": false,
+      "value": "unavailable"
+    },
+    "AUTO_READ_STATUS": {
+      "description": "Fill the value true if you want bot view your Statuses.",
+      "required": false,
+      "value": "true"
+    },
+    "MSGS_IN_LOG": {
+      "description": "Fill the value -true- if you want to see Messages in logs.",
+      "required": false,
+      "value": "false"
+    },
+    "READ_MESSAGE": {
+      "description": "Fill the value true if you want bot to read all messages.",
+      "required": false,
+      "value": "false"
+    },
+    "DISABLE_PM": {
+      "description": "Make it 'false' if you wanna run bot in your pm (if MODE is Public)",
+      "value": "false",
+      "required": false
+    },
+    "PREFIX": {
+      "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
+      "value": "."
+    },
+    "OWNER_NUMBER": {
+      "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
+      "value": "2348069374767"
+    },
+    "SESSION_ID": {
+      "description": "put your SESSION_ID here.",
+      "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSU1DWFNZZGs4NjVzVzRUd01id29VaDlUZjZPV00wd3RXYjNpU0VPUEJudz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiT1pUdU9FbjF2Vmk0S0JaV29YRzJYNnBydWt4YzA2R2tHSW9VNU53aGVSWT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI4SWx5b1Ira3FjL3AzSGNqdy9ZOU53QmhYYkwxWUNjd3FnaG1LaVFscjE0PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJjK0pSamZpc1FueFJ3M3BCdVFFdXBiK1RvVGNFWGw1Y3A4MFJESVVud2w4PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkdPYURYNWwrRUlMd1FXM0lzZlYzZEJrUmpWTTUyanNzZU9NQ0kxRkhiMUU9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InpmQ3hhWG5UREZzNXA0c3JtSDRFa1RyL3ZIK2R5M0JkbHVSN0g4SG8zaTg9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiOE5mcFpEMERrOGwwZ1NSSjdHRjBxaEJJWHp5bHgrYk9XK0xrcDRFOE1XQT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiN3hoTTdaSVBGekVRU205cjUwYmQ4Y0FHd2QxU09DdTMxVjVQOVpnbU5CRT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlBxenJnbk5rS05SRFRKaVBFT3lzUms5L21ZT2pzUWNNWXpnc2x1SmNqVy9vVDRWNk1Ya0t5aHdyY2F1MDRnU2llQWR2Vmdqb28rNHJsdXhQQm9JYUFnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjQ2LCJhZHZTZWNyZXRLZXkiOiJxYzNneFA5OHlNTDNOUS9VQmxDYWkzR3dDTUNmajdWVFp1K2hKclpyamdFPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiIwUzhRLS1UeFFqR1QzWEVJbDcxUFFnIiwicGhvbmVJZCI6ImFiNWMwYmQ2LTEyMTctNGRkOS1iNGUxLTZlNGU2ZGFjYTFmNyIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJxbmV6NThRWWJCMHZ2VzRBRzhjdmJ5bXhkU0U9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoic0R4UTAraytud04xcGp6dkN3dzVtTXB2QWlJPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjRDMjI0NjNBIiwibWUiOnsiaWQiOiIyMzQ4MDY5Mzc0NzY3OjMzQHMud2hhdHNhcHAubmV0In0sImFjY291bnQiOnsiZGV0YWlscyI6IkNOaWRqYzBCRUk3UnRyUUdHQVlnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJveWpVemtYZ2w3ekQrR2JqSFJacmRVbldVZEMwWUVRRG5NTUhTVkVvYzFjPSIsImFjY291bnRTaWduYXR1cmUiOiI2VkZ5NHY0MzRlbDhybEJqTDY4UjlxY3I1OXBWVkJrVDJLeGcrTHNLbU1VSThPNnhndWFlZW9JYTVVTm42YmRRQ2VWRWdSeERqdFVlcmpoMGNpVFlDZz09IiwiZGV2aWNlU2lnbmF0dXJlIjoickNOWXVoaW04Ymw2WmY3bllWbjVWOWQ0UW5SZWVlem05K1dIek95UFNJSGVoSlpnSE5reUpkWXVJTS9iNjZTNEk1SkNhSFBrS3hHWlY3UHJGdkdIQ3c9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyMzQ4MDY5Mzc0NzY3OjMzQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmFNbzFNNUY0SmU4dy9obTR4MFdhM1ZKMWxIUXRHQkVBNXpEQjBsUktITlgifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MjA1NTk3NzEsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBRmlhIn0="
+    },
+    "MODE": {
+      "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
+      "value": "private"
+    },
+    "PACK_NAME": {
+      "description": "Put Sticker Pack_Name.",
+      "value": "✞ঔৣŦℨĐĐƳঔৣ✞",
+      "required": false
+    },
+    "PACK_AUTHER": {
+      "description": "Put Sticker Author_Name.",
+      "value": "✞ঔৣŦℨĐĐƳঔৣ✞",
+      "required": false
+    }
+  },
+  "addons": [{ "plan": "heroku-postgresql" }],
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" },
+    { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
+  ]
+}
